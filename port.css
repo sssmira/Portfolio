@@ -233,7 +233,7 @@ ul li a:hover {
 }
 
 .image img {
-  width: min(25rem, 90%);
+  width: min(25rem, 65%);
   border-radius: 100%;
 }
 
@@ -242,7 +242,7 @@ ul li a:hover {
   place-items: center;
   padding: 0 30px;
   width: 100%;
-  overflow: hidden;
+  overflow: none;
 }
 
 .submit__form{
