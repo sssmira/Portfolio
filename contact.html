@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="port.css" />
+    <title>Samira's Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="index.html">Samira</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">CONTACT</p>
+          <h1 class="title">
+            <span>Let's keep in touch!</span>
+          </h1>
+          <p class="description">
+            Anything spark your eye? If so, email me about it or alternatively,
+            feel free to reach out to me on LinkedIn!
+          </p>
+          <div class="action__btns">
+            <button class="linkedin">
+              <a href="https://www.linkedin.com/in/samirakoraganie/" target="_blank">
+                LinkedIn
+              </a>
+            </button>
+          </div>
+        </div>
+        <div class="form">
+          <div class="submit__form">
+            <h1 class="title">
+              (*･ω･)✎ ✉︎
+            </h1>
+            <form action="" onsubmit="sendEmail(); reset(); return false;">
+              <div class="input__box">
+                <input type="text" class="input" required>
+                <label for="">Name</label>
+              </div>
+  
+              <div class="input__box">
+                <input type="email" class="input" required>
+                <label for="">Email</label>
+              </div>
+  
+              <div class="input__box">
+                <textarea name="" class="input" required id="message" cols="30" rows="10"></textarea>
+                <label for="">Message</label>
+              </div>
+              <input type="submit" class="submit" value="Submit">
+                
+            </form>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+  </body>
+</html>
